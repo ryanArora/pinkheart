@@ -1,13 +1,21 @@
 {
+  "name": "pinkheart",
   "private": true,
+  "bin": "./index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pkg ."
   },
   "dependencies": {
     "colors": "^1.4.0"
   },
+  "devDependencies": {
+    "pkg": "^5.5.1"
+  },
   "pkg": {
-    "assets": "txts",
-    "targets": "node12-win-x64"
+    "targets": [
+      "node14-win-x64"
+    ],
+    "outputPath": "dist"
   }
 }
