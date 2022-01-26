@@ -10,7 +10,9 @@
     "colors": "^1.4.0"
   },
   "devDependencies": {
-    "pkg": "^5.5.1"
+    "@types/prettier": "^2.4.3",
+    "pkg": "^5.5.1",
+    "prettier": "^2.5.1"
   },
   "pkg": {
     "targets": [

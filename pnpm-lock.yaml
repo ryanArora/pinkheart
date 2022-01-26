@@ -1,14 +1,18 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@types/prettier': ^2.4.3
   colors: ^1.4.0
   pkg: ^5.5.1
+  prettier: ^2.5.1
 
 dependencies:
   colors: 1.4.0
 
 devDependencies:
+  '@types/prettier': 2.4.3
   pkg: 5.5.1
+  prettier: 2.5.1
 
 packages:
 
@@ -50,6 +54,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@types/prettier/2.4.3:
+    resolution: {integrity: sha512-QzSuZMBuG5u8HqYz01qtMdg/Jfctlnvj1z/lYnIDXs/golxw0fxtRAHd9KrzjR7Yxz1qVeI00o0kiO3PmVdJ9w==}
     dev: true
 
   /agent-base/6.0.2:
@@ -656,6 +664,12 @@ packages:
   /prelude-ls/1.1.2:
     resolution: {integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /process-nextick-args/2.0.1:
